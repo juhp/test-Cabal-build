@@ -1,3 +1,5 @@
+GHC ?= ghc
+
 test:
 	rm -f *.hi *.o
-	ghc --make Main
+	$(GHC) --make Main
