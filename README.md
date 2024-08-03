@@ -8,11 +8,11 @@ A toy project to test the compilation behavior with recent ghc:
 
 ## How to test
 
-Run:
+Run eg:
 ```
 $ make GHC=ghc-9.4.8
 ```
-(`ghc --make` etc probably also works: the makefile just removes any build artifacts first)
-
-etc and see how the behavior changes with the version:
+and see how the behavior changes with the version:
 eg 9.0.2/9.2.8 vs 9.4.8/9.6.6/9.8.2
+
+(`ghc --make` etc probably also works: the makefile just removes any build artifacts first)
